@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,900&display=swap&subset=cyrillic');
-html{
-  width: 1440pt;
-  height: 5137pt;
-  background-image: url(..images/bg.jpg);
-}
-* {
+body{
   width:1200px;
   margin:auto;
   font-family: Montserrat;
