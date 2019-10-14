@@ -9,7 +9,7 @@ body{
 }
 h1{
   color:#FF0000;
-  margin-top: 213px;
+  margin-top: 150px;
   font-style: black;
   font-size: 138px;
   line-height: 135px;
@@ -20,5 +20,5 @@ p{
 }
 h1 + p{
   color:#FF0000;
-  margin-top: 40px;
+  margin-top: 15px;
 }
