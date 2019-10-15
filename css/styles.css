@@ -3,9 +3,10 @@ body{
   font-family: Montserrat;
   background-image: url(../images/bg.jpg);
 }
-*{
+div{
   width:1200px;
   margin:auto;
+  /*background-color: pink;*/
 }
 h1{
   color:#FF0000;
@@ -13,12 +14,47 @@ h1{
   font-style: black;
   font-size: 138px;
   line-height: 135px;
+  /*background-color: blue;*/
+}
+h2{
+  margin-top: 47px;
+  font-style: black;
+  font-size: 60px;
+  line-height: 73px;
+  /*background-color: blue;*/
 }
 p{
-  font-style: regular;
+  font-style: medium;
   font-size: 45px;
+  line-height: 55px;
+  /*background-color: yellow;*/
+}
+img{
+  width:550px;
+  height:340px;
+  margin:15px;
+}
+img:nth-of-type(even){
+  display: inline-block;
 }
 h1 + p{
-  color:#FF0000;
-  margin-top: 15px;
+  color:#DC0000;
+  /*background-color: green;*/
+  margin-top: -85px;
+}
+h2 + p{
+  margin-top: -40px;
+}
+div + div{
+  margin-top: 243px;
+  /*background-color: blue;*/
+}
+div:nth-of-type(3){
+  /*background-color: green;*/
+  text-align: center;
+  color:#DC0000;
+}
+div:nth-of-type(4) > h2{
+  color:#DC0000;
+  text-align: center;
 }
