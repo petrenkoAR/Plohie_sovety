@@ -1,23 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap&subset=cyrillic,cyrillic-ext');
 @import "reset.css";
-*{
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap&subset=cyrillic');
+
+* {
   box-sizing: border-box;
 }
-body{
-  font-family: Montserrat;
-  background-image: url(../images/bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 1440px 7000px;
-  margin: 0px;
+body {
+  font-family: Montserrat, sans-serif;
 }
 div{
-  width:100%;
   margin: auto;
   padding: 50px 120px;
 }
 h1{
-  color:black;
+  color: #000000;
   margin-top: 100px;
   font-weight: 900;
   font-size: 138px;
@@ -60,6 +55,10 @@ div:nth-of-type(2){
 }
 div:nth-of-type(3){
   background-color: #ff0000;
+}
+div:nth-of-type(4){
+  background-image: url(images/bgbottom.jpg);
+  background-size: cover;
 }
 div:nth-of-type(4) h2{
   margin-top: 0px;
