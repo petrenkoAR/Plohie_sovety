@@ -7,66 +7,75 @@
 body {
   font-family: Montserrat, sans-serif;
 }
-div{
+div {
   margin: auto;
   padding: 50px 120px;
 }
-h1{
+h1 {
   color: #000000;
   margin-top: 100px;
   font-weight: 900;
   font-size: 138px;
   line-height: 135px;
 }
-h2{
+h2 {
   margin-top: 50px;
   font-weight: 900;
   font-size: 60px;
   line-height: 73px;
 }
-p{
+p {
   font-weight: 500;
   font-size: 45px;
   line-height: 55px;
 }
-img{
+img {
   width: 540px;
   height: 340px;
   margin: 15px;
   border: 10px solid black;
 }
-img:nth-of-type(even){
+img:nth-of-type(even) {
   display: inline-block;
 }
-p + img{
+p + img {
   margin-top: 60px;
 }
-h1 + p{
+h1 + p {
   color: black;
   margin-top: 10px;
   margin-bottom: 15px;
 }
-h2 + p{
+h2 + p {
   margin-top: 10px;
 }
-div:nth-of-type(1){
-  background-image: url(images/bgtop.jpg);
+div:nth-of-type(1) {
+  background-image: url(../images/bgtop.jpg);
   background-size: cover;
 }
-div:nth-of-type(2){
+div:nth-of-type(4),
+div:nth-of-type(2) {
   color: #FF0000;
   background-color: #000000;
 }
-div:nth-of-type(3){
+div:nth-of-type(3) {
   background-color: #ff0000;
 }
-div:nth-of-type(4){
-  background-image: url(images/bgbottom.jpg);
+div:nth-of-type(3) h2 {
+  margin-top: 15px;
+}
+div:nth-of-type(5) {
+  background-image: url(../images/bgbottom.jpg);
   background-size: cover;
 }
-div:nth-of-type(4) h2{
-  margin-top: 0px;
+div:nth-of-type(5) h2 {
+  margin-top: 0 ;
 }
-h2 + h1{
+div:nth-of-type(4) img {
+  margin: 60px auto;
+  width: 1200px;
+  height: auto;
+}
+h2 + h1 {
   margin-top: 50px;
 }
